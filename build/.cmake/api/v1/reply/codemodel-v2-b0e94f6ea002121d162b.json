@@ -1,0 +1,318 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						15,
+						16,
+						17,
+						19,
+						20
+					]
+				},
+				{
+					"build" : "lib",
+					"jsonFile" : "directory-lib-Debug-c12f15c6f888b43a891c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"build" : "tools",
+					"jsonFile" : "directory-tools-Debug-f9645b0170a45a75eff2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tools",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "test",
+					"jsonFile" : "directory-test-Debug-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test"
+				},
+				{
+					"build" : "HelloWorld",
+					"jsonFile" : "directory-HelloWorld-Debug-c34b2c366fb194424ce6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "HelloWorld",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "llvm-tutor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "llvm-tutor-hello-world",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "AffineRecurrence::@306ed2d68c6501e8728f",
+					"jsonFile" : "target-AffineRecurrence-Debug-1d49db4a257d086654e4.json",
+					"name" : "AffineRecurrence",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ConvertFCmpEq::@306ed2d68c6501e8728f",
+					"jsonFile" : "target-ConvertFCmpEq-Debug-f4c4f645807dbc80f94b.json",
+					"name" : "ConvertFCmpEq",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "DerivedInductionVar::@306ed2d68c6501e8728f",
+					"jsonFile" : "target-DerivedInductionVar-Debug-7859ae3bea988ae5361d.json",
+					"name" : "DerivedInductionVar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "DuplicateBB::@306ed2d68c6501e8728f",
+					"jsonFile" : "target-DuplicateBB-Debug-5b7a4cfcf921ad880d40.json",
+					"name" : "DuplicateBB",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "DynamicCallCounter::@306ed2d68c6501e8728f",
+					"jsonFile" : "target-DynamicCallCounter-Debug-d2549e9145ac63f448db.json",
+					"name" : "DynamicCallCounter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "FindFCmpEq::@306ed2d68c6501e8728f",
+					"jsonFile" : "target-FindFCmpEq-Debug-582b7d186400f2866249.json",
+					"name" : "FindFCmpEq",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "HelloWorld::@964b398ecd55793d8ca9",
+					"jsonFile" : "target-HelloWorld-Debug-fb91eb79becd37f61013.json",
+					"name" : "HelloWorld",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "InjectFuncCall::@306ed2d68c6501e8728f",
+					"jsonFile" : "target-InjectFuncCall-Debug-7875ca2b9d47dcf03f14.json",
+					"name" : "InjectFuncCall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MBAAdd::@306ed2d68c6501e8728f",
+					"jsonFile" : "target-MBAAdd-Debug-78e966ab911cc8151f46.json",
+					"name" : "MBAAdd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MBASub::@306ed2d68c6501e8728f",
+					"jsonFile" : "target-MBASub-Debug-69772aac4878112da6ce.json",
+					"name" : "MBASub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MergeBB::@306ed2d68c6501e8728f",
+					"jsonFile" : "target-MergeBB-Debug-1c76fe0722520f0bf48d.json",
+					"name" : "MergeBB",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "OpcodeCounter::@306ed2d68c6501e8728f",
+					"jsonFile" : "target-OpcodeCounter-Debug-9ddde7c1eb8e8e12d26c.json",
+					"name" : "OpcodeCounter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "RIV::@306ed2d68c6501e8728f",
+					"jsonFile" : "target-RIV-Debug-081139f7bae878a58c58.json",
+					"name" : "RIV",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SimpleLICM::@306ed2d68c6501e8728f",
+					"jsonFile" : "target-SimpleLICM-Debug-e53086269c38c3f87324.json",
+					"name" : "SimpleLICM",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "StaticCallCounter::@306ed2d68c6501e8728f",
+					"jsonFile" : "target-StaticCallCounter-Debug-91cf28da9c6b0f71b5f1.json",
+					"name" : "StaticCallCounter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "acc_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acc_gen-Debug-41d5844b44fdb4d4baef.json",
+					"name" : "acc_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intrinsics_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intrinsics_gen-Debug-e94ef3079997bb73842b.json",
+					"name" : "intrinsics_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omp_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omp_gen-Debug-a5244169778bfa5211ee.json",
+					"name" : "omp_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "static::@b9a00e55f22b3d77656c",
+					"jsonFile" : "target-static-Debug-5d832ba708b5b39cec84.json",
+					"name" : "static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "target_parser_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-target_parser_gen-Debug-117d93a9fb12ca4218ea.json",
+					"name" : "target_parser_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vt_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vt_gen-Debug-d38e6a98bb89c95e31c9.json",
+					"name" : "vt_gen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/torin8101/llvm-tutor/build",
+		"source" : "/Users/torin8101/llvm-tutor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/torin8101/llvm-tutor/build/cmake_install.cmake",
+		"/Users/torin8101/llvm-tutor/build/lib/cmake_install.cmake",
+		"/Users/torin8101/llvm-tutor/build/tools/cmake_install.cmake",
+		"/Users/torin8101/llvm-tutor/build/test/cmake_install.cmake",
+		"/Users/torin8101/llvm-tutor/build/HelloWorld/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,104 @@
+[
+{
+  "directory": "/Users/torin8101/llvm-tutor/build/lib",
+  "command": "/usr/bin/clang++ -DStaticCallCounter_EXPORTS -I/Users/torin8101/llvm-tutor/lib/../include -isystem /opt/homebrew/Cellar/llvm/21.1.3/include  -Wall  -fdiagnostics-color=always -fvisibility-inlines-hidden -g -std=gnu++17 -arch arm64 -fPIC   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/StaticCallCounter.dir/StaticCallCounter.cpp.o -c /Users/torin8101/llvm-tutor/lib/StaticCallCounter.cpp",
+  "file": "/Users/torin8101/llvm-tutor/lib/StaticCallCounter.cpp",
+  "output": "lib/CMakeFiles/StaticCallCounter.dir/StaticCallCounter.cpp.o"
+},
+{
+  "directory": "/Users/torin8101/llvm-tutor/build/lib",
+  "command": "/usr/bin/clang++ -DDynamicCallCounter_EXPORTS -I/Users/torin8101/llvm-tutor/lib/../include -isystem /opt/homebrew/Cellar/llvm/21.1.3/include  -Wall  -fdiagnostics-color=always -fvisibility-inlines-hidden -g -std=gnu++17 -arch arm64 -fPIC   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/DynamicCallCounter.dir/DynamicCallCounter.cpp.o -c /Users/torin8101/llvm-tutor/lib/DynamicCallCounter.cpp",
+  "file": "/Users/torin8101/llvm-tutor/lib/DynamicCallCounter.cpp",
+  "output": "lib/CMakeFiles/DynamicCallCounter.dir/DynamicCallCounter.cpp.o"
+},
+{
+  "directory": "/Users/torin8101/llvm-tutor/build/lib",
+  "command": "/usr/bin/clang++ -DFindFCmpEq_EXPORTS -I/Users/torin8101/llvm-tutor/lib/../include -isystem /opt/homebrew/Cellar/llvm/21.1.3/include  -Wall  -fdiagnostics-color=always -fvisibility-inlines-hidden -g -std=gnu++17 -arch arm64 -fPIC   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/FindFCmpEq.dir/FindFCmpEq.cpp.o -c /Users/torin8101/llvm-tutor/lib/FindFCmpEq.cpp",
+  "file": "/Users/torin8101/llvm-tutor/lib/FindFCmpEq.cpp",
+  "output": "lib/CMakeFiles/FindFCmpEq.dir/FindFCmpEq.cpp.o"
+},
+{
+  "directory": "/Users/torin8101/llvm-tutor/build/lib",
+  "command": "/usr/bin/clang++ -DConvertFCmpEq_EXPORTS -I/Users/torin8101/llvm-tutor/lib/../include -isystem /opt/homebrew/Cellar/llvm/21.1.3/include  -Wall  -fdiagnostics-color=always -fvisibility-inlines-hidden -g -std=gnu++17 -arch arm64 -fPIC   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/ConvertFCmpEq.dir/ConvertFCmpEq.cpp.o -c /Users/torin8101/llvm-tutor/lib/ConvertFCmpEq.cpp",
+  "file": "/Users/torin8101/llvm-tutor/lib/ConvertFCmpEq.cpp",
+  "output": "lib/CMakeFiles/ConvertFCmpEq.dir/ConvertFCmpEq.cpp.o"
+},
+{
+  "directory": "/Users/torin8101/llvm-tutor/build/lib",
+  "command": "/usr/bin/clang++ -DInjectFuncCall_EXPORTS -I/Users/torin8101/llvm-tutor/lib/../include -isystem /opt/homebrew/Cellar/llvm/21.1.3/include  -Wall  -fdiagnostics-color=always -fvisibility-inlines-hidden -g -std=gnu++17 -arch arm64 -fPIC   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/InjectFuncCall.dir/InjectFuncCall.cpp.o -c /Users/torin8101/llvm-tutor/lib/InjectFuncCall.cpp",
+  "file": "/Users/torin8101/llvm-tutor/lib/InjectFuncCall.cpp",
+  "output": "lib/CMakeFiles/InjectFuncCall.dir/InjectFuncCall.cpp.o"
+},
+{
+  "directory": "/Users/torin8101/llvm-tutor/build/lib",
+  "command": "/usr/bin/clang++ -DMBAAdd_EXPORTS -I/Users/torin8101/llvm-tutor/lib/../include -isystem /opt/homebrew/Cellar/llvm/21.1.3/include  -Wall  -fdiagnostics-color=always -fvisibility-inlines-hidden -g -std=gnu++17 -arch arm64 -fPIC   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/MBAAdd.dir/MBAAdd.cpp.o -c /Users/torin8101/llvm-tutor/lib/MBAAdd.cpp",
+  "file": "/Users/torin8101/llvm-tutor/lib/MBAAdd.cpp",
+  "output": "lib/CMakeFiles/MBAAdd.dir/MBAAdd.cpp.o"
+},
+{
+  "directory": "/Users/torin8101/llvm-tutor/build/lib",
+  "command": "/usr/bin/clang++ -DMBASub_EXPORTS -I/Users/torin8101/llvm-tutor/lib/../include -isystem /opt/homebrew/Cellar/llvm/21.1.3/include  -Wall  -fdiagnostics-color=always -fvisibility-inlines-hidden -g -std=gnu++17 -arch arm64 -fPIC   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/MBASub.dir/MBASub.cpp.o -c /Users/torin8101/llvm-tutor/lib/MBASub.cpp",
+  "file": "/Users/torin8101/llvm-tutor/lib/MBASub.cpp",
+  "output": "lib/CMakeFiles/MBASub.dir/MBASub.cpp.o"
+},
+{
+  "directory": "/Users/torin8101/llvm-tutor/build/lib",
+  "command": "/usr/bin/clang++ -DRIV_EXPORTS -I/Users/torin8101/llvm-tutor/lib/../include -isystem /opt/homebrew/Cellar/llvm/21.1.3/include  -Wall  -fdiagnostics-color=always -fvisibility-inlines-hidden -g -std=gnu++17 -arch arm64 -fPIC   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/RIV.dir/RIV.cpp.o -c /Users/torin8101/llvm-tutor/lib/RIV.cpp",
+  "file": "/Users/torin8101/llvm-tutor/lib/RIV.cpp",
+  "output": "lib/CMakeFiles/RIV.dir/RIV.cpp.o"
+},
+{
+  "directory": "/Users/torin8101/llvm-tutor/build/lib",
+  "command": "/usr/bin/clang++ -DDuplicateBB_EXPORTS -I/Users/torin8101/llvm-tutor/lib/../include -isystem /opt/homebrew/Cellar/llvm/21.1.3/include  -Wall  -fdiagnostics-color=always -fvisibility-inlines-hidden -g -std=gnu++17 -arch arm64 -fPIC   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/DuplicateBB.dir/DuplicateBB.cpp.o -c /Users/torin8101/llvm-tutor/lib/DuplicateBB.cpp",
+  "file": "/Users/torin8101/llvm-tutor/lib/DuplicateBB.cpp",
+  "output": "lib/CMakeFiles/DuplicateBB.dir/DuplicateBB.cpp.o"
+},
+{
+  "directory": "/Users/torin8101/llvm-tutor/build/lib",
+  "command": "/usr/bin/clang++ -DOpcodeCounter_EXPORTS -I/Users/torin8101/llvm-tutor/lib/../include -isystem /opt/homebrew/Cellar/llvm/21.1.3/include  -Wall  -fdiagnostics-color=always -fvisibility-inlines-hidden -g -std=gnu++17 -arch arm64 -fPIC   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/OpcodeCounter.dir/OpcodeCounter.cpp.o -c /Users/torin8101/llvm-tutor/lib/OpcodeCounter.cpp",
+  "file": "/Users/torin8101/llvm-tutor/lib/OpcodeCounter.cpp",
+  "output": "lib/CMakeFiles/OpcodeCounter.dir/OpcodeCounter.cpp.o"
+},
+{
+  "directory": "/Users/torin8101/llvm-tutor/build/lib",
+  "command": "/usr/bin/clang++ -DMergeBB_EXPORTS -I/Users/torin8101/llvm-tutor/lib/../include -isystem /opt/homebrew/Cellar/llvm/21.1.3/include  -Wall  -fdiagnostics-color=always -fvisibility-inlines-hidden -g -std=gnu++17 -arch arm64 -fPIC   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/MergeBB.dir/MergeBB.cpp.o -c /Users/torin8101/llvm-tutor/lib/MergeBB.cpp",
+  "file": "/Users/torin8101/llvm-tutor/lib/MergeBB.cpp",
+  "output": "lib/CMakeFiles/MergeBB.dir/MergeBB.cpp.o"
+},
+{
+  "directory": "/Users/torin8101/llvm-tutor/build/lib",
+  "command": "/usr/bin/clang++ -DSimpleLICM_EXPORTS -I/Users/torin8101/llvm-tutor/lib/../include -isystem /opt/homebrew/Cellar/llvm/21.1.3/include  -Wall  -fdiagnostics-color=always -fvisibility-inlines-hidden -g -std=gnu++17 -arch arm64 -fPIC   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/SimpleLICM.dir/SimpleLICM.cpp.o -c /Users/torin8101/llvm-tutor/lib/SimpleLICM.cpp",
+  "file": "/Users/torin8101/llvm-tutor/lib/SimpleLICM.cpp",
+  "output": "lib/CMakeFiles/SimpleLICM.dir/SimpleLICM.cpp.o"
+},
+{
+  "directory": "/Users/torin8101/llvm-tutor/build/lib",
+  "command": "/usr/bin/clang++ -DAffineRecurrence_EXPORTS -I/Users/torin8101/llvm-tutor/lib/../include -isystem /opt/homebrew/Cellar/llvm/21.1.3/include  -Wall  -fdiagnostics-color=always -fvisibility-inlines-hidden -g -std=gnu++17 -arch arm64 -fPIC   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/AffineRecurrence.dir/AffineRecurrence.cpp.o -c /Users/torin8101/llvm-tutor/lib/AffineRecurrence.cpp",
+  "file": "/Users/torin8101/llvm-tutor/lib/AffineRecurrence.cpp",
+  "output": "lib/CMakeFiles/AffineRecurrence.dir/AffineRecurrence.cpp.o"
+},
+{
+  "directory": "/Users/torin8101/llvm-tutor/build/lib",
+  "command": "/usr/bin/clang++ -DDerivedInductionVar_EXPORTS -I/Users/torin8101/llvm-tutor/lib/../include -isystem /opt/homebrew/Cellar/llvm/21.1.3/include  -Wall  -fdiagnostics-color=always -fvisibility-inlines-hidden -g -std=gnu++17 -arch arm64 -fPIC   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/DerivedInductionVar.dir/DerivedInductionVar.cpp.o -c /Users/torin8101/llvm-tutor/lib/DerivedInductionVar.cpp",
+  "file": "/Users/torin8101/llvm-tutor/lib/DerivedInductionVar.cpp",
+  "output": "lib/CMakeFiles/DerivedInductionVar.dir/DerivedInductionVar.cpp.o"
+},
+{
+  "directory": "/Users/torin8101/llvm-tutor/build/tools",
+  "command": "/usr/bin/clang++  -I/Users/torin8101/llvm-tutor/tools/../include -isystem /opt/homebrew/Cellar/llvm/21.1.3/include -isystem /opt/homebrew/include  -Wall  -fdiagnostics-color=always -fvisibility-inlines-hidden -g -std=gnu++17 -arch arm64   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/static.dir/StaticMain.cpp.o -c /Users/torin8101/llvm-tutor/tools/StaticMain.cpp",
+  "file": "/Users/torin8101/llvm-tutor/tools/StaticMain.cpp",
+  "output": "tools/CMakeFiles/static.dir/StaticMain.cpp.o"
+},
+{
+  "directory": "/Users/torin8101/llvm-tutor/build/tools",
+  "command": "/usr/bin/clang++  -I/Users/torin8101/llvm-tutor/tools/../include -isystem /opt/homebrew/Cellar/llvm/21.1.3/include -isystem /opt/homebrew/include  -Wall  -fdiagnostics-color=always -fvisibility-inlines-hidden -g -std=gnu++17 -arch arm64   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/static.dir/__/lib/StaticCallCounter.cpp.o -c /Users/torin8101/llvm-tutor/lib/StaticCallCounter.cpp",
+  "file": "/Users/torin8101/llvm-tutor/lib/StaticCallCounter.cpp",
+  "output": "tools/CMakeFiles/static.dir/__/lib/StaticCallCounter.cpp.o"
+},
+{
+  "directory": "/Users/torin8101/llvm-tutor/build/HelloWorld",
+  "command": "/usr/bin/clang++ -DHelloWorld_EXPORTS -isystem /opt/homebrew/Cellar/llvm/21.1.3/include  -Wall  -fdiagnostics-color=always -fvisibility-inlines-hidden -g -std=gnu++17 -arch arm64 -fPIC   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/HelloWorld.dir/HelloWorld.cpp.o -c /Users/torin8101/llvm-tutor/HelloWorld/HelloWorld.cpp",
+  "file": "/Users/torin8101/llvm-tutor/HelloWorld/HelloWorld.cpp",
+  "output": "HelloWorld/CMakeFiles/HelloWorld.dir/HelloWorld.cpp.o"
+}
+]

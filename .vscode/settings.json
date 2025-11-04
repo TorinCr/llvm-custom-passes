@@ -1,0 +1,15 @@
+{
+    "cmake.configureSettings": {
+        "LT_LLVM_INSTALL_DIR": "/opt/homebrew/opt/llvm"
+    },
+    "cmake.environment": {
+        "LLVM_DIR": "/opt/homebrew/opt/llvm"
+    },
+    "C_Cpp.default.compilerPath": "/opt/homebrew/opt/llvm/bin/clang++",
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/**",
+        "/opt/homebrew/opt/llvm/include"
+    ],
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.intelliSenseMode": "macos-clang-arm64"
+}
